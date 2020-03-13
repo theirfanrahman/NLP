@@ -1,3 +1,6 @@
+To represnt a word so that computer can process is called tokenization
+There are many other library are available to do tokenization but here we are using keras libray for the same
+
 #import library
 import tensorflow as tf
 from tensorflow import keras
@@ -18,4 +21,4 @@ print(word_index)
 
 Output:
 {'i': 1, 'love': 2, 'my': 3, 'cat': 4, 'dog': 5}
-if you see the output it understood cat and cat! both are same. So, it smart enough to undestand exception
+if you see the output it understood cat and cat! both are same. So, it smart enough to understand exception.
